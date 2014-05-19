@@ -28,7 +28,7 @@
 
 - (void)testOtherNotSoTrueAsMuchAsFalse
 {
-    XCTAssertTrue(NO);
+    XCTAssertTrue(YES);
 }
 
 

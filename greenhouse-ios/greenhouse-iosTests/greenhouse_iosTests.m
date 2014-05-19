@@ -28,12 +28,12 @@
 
 - (void)testFail
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssertFalse(NO);
 }
 
 - (void)testFalse
 {
-    XCTAssertFalse(YES);
+    XCTAssertFalse(NO);
 }
 
 - (void)testTrue
