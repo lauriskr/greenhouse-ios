@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		776BEEB9192A00C900FB13E6 /* greenhouse_otherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776BEEB8192A00C900FB13E6 /* greenhouse_otherTests.m */; };
+		776BEEBD192A01DD00FB13E6 /* greenhouse_moreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776BEEBC192A01DD00FB13E6 /* greenhouse_moreTests.m */; };
 		7791B6E918BF8B2E00EA3020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6E818BF8B2E00EA3020 /* Foundation.framework */; };
 		7791B6EB18BF8B2E00EA3020 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6EA18BF8B2E00EA3020 /* CoreGraphics.framework */; };
 		7791B6ED18BF8B2E00EA3020 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6EC18BF8B2E00EA3020 /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		776BEEB8192A00C900FB13E6 /* greenhouse_otherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = greenhouse_otherTests.m; sourceTree = "<group>"; };
+		776BEEBC192A01DD00FB13E6 /* greenhouse_moreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = greenhouse_moreTests.m; sourceTree = "<group>"; };
 		7791B6E518BF8B2E00EA3020 /* greenhouse-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "greenhouse-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7791B6E818BF8B2E00EA3020 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7791B6EA18BF8B2E00EA3020 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -145,6 +147,7 @@
 				7791B71618BF8B2E00EA3020 /* greenhouse_iosTests.m */,
 				7791B71118BF8B2E00EA3020 /* Supporting Files */,
 				776BEEB8192A00C900FB13E6 /* greenhouse_otherTests.m */,
+				776BEEBC192A01DD00FB13E6 /* greenhouse_moreTests.m */,
 			);
 			path = "greenhouse-iosTests";
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776BEEBD192A01DD00FB13E6 /* greenhouse_moreTests.m in Sources */,
 				7791B71718BF8B2E00EA3020 /* greenhouse_iosTests.m in Sources */,
 				776BEEB9192A00C900FB13E6 /* greenhouse_otherTests.m in Sources */,
 			);
