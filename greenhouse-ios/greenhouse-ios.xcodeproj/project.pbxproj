@@ -24,6 +24,22 @@
 		7791B70D18BF8B2E00EA3020 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6EC18BF8B2E00EA3020 /* UIKit.framework */; };
 		7791B71518BF8B2E00EA3020 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7791B71318BF8B2E00EA3020 /* InfoPlist.strings */; };
 		7791B71718BF8B2E00EA3020 /* greenhouse_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7791B71618BF8B2E00EA3020 /* greenhouse_iosTests.m */; };
+		77CBB5171952CF82007B2090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6E818BF8B2E00EA3020 /* Foundation.framework */; };
+		77CBB5181952CF82007B2090 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6EA18BF8B2E00EA3020 /* CoreGraphics.framework */; };
+		77CBB5191952CF82007B2090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6EC18BF8B2E00EA3020 /* UIKit.framework */; };
+		77CBB51F1952CF82007B2090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77CBB51D1952CF82007B2090 /* InfoPlist.strings */; };
+		77CBB5211952CF82007B2090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CBB5201952CF82007B2090 /* main.m */; };
+		77CBB5251952CF82007B2090 /* SECAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CBB5241952CF82007B2090 /* SECAppDelegate.m */; };
+		77CBB5281952CF82007B2090 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CBB5261952CF82007B2090 /* Main_iPhone.storyboard */; };
+		77CBB52B1952CF82007B2090 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CBB5291952CF82007B2090 /* Main_iPad.storyboard */; };
+		77CBB52E1952CF82007B2090 /* SECMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CBB52D1952CF82007B2090 /* SECMasterViewController.m */; };
+		77CBB5311952CF82007B2090 /* SECDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CBB5301952CF82007B2090 /* SECDetailViewController.m */; };
+		77CBB5331952CF83007B2090 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77CBB5321952CF82007B2090 /* Images.xcassets */; };
+		77CBB5391952CF83007B2090 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B70A18BF8B2E00EA3020 /* XCTest.framework */; };
+		77CBB53A1952CF83007B2090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6E818BF8B2E00EA3020 /* Foundation.framework */; };
+		77CBB53B1952CF83007B2090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6EC18BF8B2E00EA3020 /* UIKit.framework */; };
+		77CBB5431952CF83007B2090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77CBB5411952CF83007B2090 /* InfoPlist.strings */; };
+		77CBB5451952CF83007B2090 /* greenhouse_ios_secondTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CBB5441952CF83007B2090 /* greenhouse_ios_secondTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +49,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7791B6E418BF8B2D00EA3020;
 			remoteInfo = "greenhouse-ios";
+		};
+		77CBB53C1952CF83007B2090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7791B6DD18BF8B2D00EA3020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77CBB5151952CF82007B2090;
+			remoteInfo = "greenhouse-ios-second";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -59,6 +82,24 @@
 		7791B71218BF8B2E00EA3020 /* greenhouse-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "greenhouse-iosTests-Info.plist"; sourceTree = "<group>"; };
 		7791B71418BF8B2E00EA3020 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7791B71618BF8B2E00EA3020 /* greenhouse_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = greenhouse_iosTests.m; sourceTree = "<group>"; };
+		77CBB5161952CF82007B2090 /* greenhouse-ios-second.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "greenhouse-ios-second.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77CBB51C1952CF82007B2090 /* greenhouse-ios-second-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "greenhouse-ios-second-Info.plist"; sourceTree = "<group>"; };
+		77CBB51E1952CF82007B2090 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77CBB5201952CF82007B2090 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77CBB5221952CF82007B2090 /* greenhouse-ios-second-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "greenhouse-ios-second-Prefix.pch"; sourceTree = "<group>"; };
+		77CBB5231952CF82007B2090 /* SECAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SECAppDelegate.h; sourceTree = "<group>"; };
+		77CBB5241952CF82007B2090 /* SECAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SECAppDelegate.m; sourceTree = "<group>"; };
+		77CBB5271952CF82007B2090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		77CBB52A1952CF82007B2090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		77CBB52C1952CF82007B2090 /* SECMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SECMasterViewController.h; sourceTree = "<group>"; };
+		77CBB52D1952CF82007B2090 /* SECMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SECMasterViewController.m; sourceTree = "<group>"; };
+		77CBB52F1952CF82007B2090 /* SECDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SECDetailViewController.h; sourceTree = "<group>"; };
+		77CBB5301952CF82007B2090 /* SECDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SECDetailViewController.m; sourceTree = "<group>"; };
+		77CBB5321952CF82007B2090 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77CBB5381952CF83007B2090 /* greenhouse-ios-secondTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "greenhouse-ios-secondTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77CBB5401952CF83007B2090 /* greenhouse-ios-secondTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "greenhouse-ios-secondTests-Info.plist"; sourceTree = "<group>"; };
+		77CBB5421952CF83007B2090 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77CBB5441952CF83007B2090 /* greenhouse_ios_secondTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = greenhouse_ios_secondTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +123,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77CBB5131952CF82007B2090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CBB5181952CF82007B2090 /* CoreGraphics.framework in Frameworks */,
+				77CBB5191952CF82007B2090 /* UIKit.framework in Frameworks */,
+				77CBB5171952CF82007B2090 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77CBB5351952CF83007B2090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CBB5391952CF83007B2090 /* XCTest.framework in Frameworks */,
+				77CBB53B1952CF83007B2090 /* UIKit.framework in Frameworks */,
+				77CBB53A1952CF83007B2090 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,6 +151,8 @@
 			children = (
 				7791B6EE18BF8B2E00EA3020 /* greenhouse-ios */,
 				7791B71018BF8B2E00EA3020 /* greenhouse-iosTests */,
+				77CBB51A1952CF82007B2090 /* greenhouse-ios-second */,
+				77CBB53E1952CF83007B2090 /* greenhouse-ios-secondTests */,
 				7791B6E718BF8B2E00EA3020 /* Frameworks */,
 				7791B6E618BF8B2E00EA3020 /* Products */,
 			);
@@ -100,6 +163,8 @@
 			children = (
 				7791B6E518BF8B2E00EA3020 /* greenhouse-ios.app */,
 				7791B70918BF8B2E00EA3020 /* greenhouse-iosTests.xctest */,
+				77CBB5161952CF82007B2090 /* greenhouse-ios-second.app */,
+				77CBB5381952CF83007B2090 /* greenhouse-ios-secondTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,6 +226,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		77CBB51A1952CF82007B2090 /* greenhouse-ios-second */ = {
+			isa = PBXGroup;
+			children = (
+				77CBB5231952CF82007B2090 /* SECAppDelegate.h */,
+				77CBB5241952CF82007B2090 /* SECAppDelegate.m */,
+				77CBB5261952CF82007B2090 /* Main_iPhone.storyboard */,
+				77CBB5291952CF82007B2090 /* Main_iPad.storyboard */,
+				77CBB52C1952CF82007B2090 /* SECMasterViewController.h */,
+				77CBB52D1952CF82007B2090 /* SECMasterViewController.m */,
+				77CBB52F1952CF82007B2090 /* SECDetailViewController.h */,
+				77CBB5301952CF82007B2090 /* SECDetailViewController.m */,
+				77CBB5321952CF82007B2090 /* Images.xcassets */,
+				77CBB51B1952CF82007B2090 /* Supporting Files */,
+			);
+			path = "greenhouse-ios-second";
+			sourceTree = "<group>";
+		};
+		77CBB51B1952CF82007B2090 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77CBB51C1952CF82007B2090 /* greenhouse-ios-second-Info.plist */,
+				77CBB51D1952CF82007B2090 /* InfoPlist.strings */,
+				77CBB5201952CF82007B2090 /* main.m */,
+				77CBB5221952CF82007B2090 /* greenhouse-ios-second-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77CBB53E1952CF83007B2090 /* greenhouse-ios-secondTests */ = {
+			isa = PBXGroup;
+			children = (
+				77CBB5441952CF83007B2090 /* greenhouse_ios_secondTests.m */,
+				77CBB53F1952CF83007B2090 /* Supporting Files */,
+			);
+			path = "greenhouse-ios-secondTests";
+			sourceTree = "<group>";
+		};
+		77CBB53F1952CF83007B2090 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77CBB5401952CF83007B2090 /* greenhouse-ios-secondTests-Info.plist */,
+				77CBB5411952CF83007B2090 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,6 +310,41 @@
 			productReference = 7791B70918BF8B2E00EA3020 /* greenhouse-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		77CBB5151952CF82007B2090 /* greenhouse-ios-second */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77CBB54A1952CF83007B2090 /* Build configuration list for PBXNativeTarget "greenhouse-ios-second" */;
+			buildPhases = (
+				77CBB5121952CF82007B2090 /* Sources */,
+				77CBB5131952CF82007B2090 /* Frameworks */,
+				77CBB5141952CF82007B2090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "greenhouse-ios-second";
+			productName = "greenhouse-ios-second";
+			productReference = 77CBB5161952CF82007B2090 /* greenhouse-ios-second.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77CBB5371952CF83007B2090 /* greenhouse-ios-secondTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77CBB54B1952CF83007B2090 /* Build configuration list for PBXNativeTarget "greenhouse-ios-secondTests" */;
+			buildPhases = (
+				77CBB5341952CF83007B2090 /* Sources */,
+				77CBB5351952CF83007B2090 /* Frameworks */,
+				77CBB5361952CF83007B2090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77CBB53D1952CF83007B2090 /* PBXTargetDependency */,
+			);
+			name = "greenhouse-ios-secondTests";
+			productName = "greenhouse-ios-secondTests";
+			productReference = 77CBB5381952CF83007B2090 /* greenhouse-ios-secondTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,6 +355,9 @@
 				ORGANIZATIONNAME = greenhouse;
 				TargetAttributes = {
 					7791B70818BF8B2E00EA3020 = {
+						TestTargetID = 7791B6E418BF8B2D00EA3020;
+					};
+					77CBB5371952CF83007B2090 = {
 						TestTargetID = 7791B6E418BF8B2D00EA3020;
 					};
 				};
@@ -228,6 +377,8 @@
 			targets = (
 				7791B6E418BF8B2D00EA3020 /* greenhouse-ios */,
 				7791B70818BF8B2E00EA3020 /* greenhouse-iosTests */,
+				77CBB5151952CF82007B2090 /* greenhouse-ios-second */,
+				77CBB5371952CF83007B2090 /* greenhouse-ios-secondTests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +400,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				7791B71518BF8B2E00EA3020 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77CBB5141952CF82007B2090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CBB52B1952CF82007B2090 /* Main_iPad.storyboard in Resources */,
+				77CBB5331952CF83007B2090 /* Images.xcassets in Resources */,
+				77CBB5281952CF82007B2090 /* Main_iPhone.storyboard in Resources */,
+				77CBB51F1952CF82007B2090 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77CBB5361952CF83007B2090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CBB5431952CF83007B2090 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +445,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77CBB5121952CF82007B2090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CBB52E1952CF82007B2090 /* SECMasterViewController.m in Sources */,
+				77CBB5311952CF82007B2090 /* SECDetailViewController.m in Sources */,
+				77CBB5251952CF82007B2090 /* SECAppDelegate.m in Sources */,
+				77CBB5211952CF82007B2090 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77CBB5341952CF83007B2090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CBB5451952CF83007B2090 /* greenhouse_ios_secondTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -282,6 +471,11 @@
 			isa = PBXTargetDependency;
 			target = 7791B6E418BF8B2D00EA3020 /* greenhouse-ios */;
 			targetProxy = 7791B70E18BF8B2E00EA3020 /* PBXContainerItemProxy */;
+		};
+		77CBB53D1952CF83007B2090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77CBB5151952CF82007B2090 /* greenhouse-ios-second */;
+			targetProxy = 77CBB53C1952CF83007B2090 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -314,6 +508,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				7791B71418BF8B2E00EA3020 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77CBB51D1952CF82007B2090 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77CBB51E1952CF82007B2090 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77CBB5261952CF82007B2090 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77CBB5271952CF82007B2090 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		77CBB5291952CF82007B2090 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77CBB52A1952CF82007B2090 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		77CBB5411952CF83007B2090 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77CBB5421952CF83007B2090 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -398,7 +624,7 @@
 		7791B71B18BF8B2E00EA3020 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "gh-ios";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "greenhouse-ios/greenhouse-ios-Prefix.pch";
@@ -411,7 +637,7 @@
 		7791B71C18BF8B2E00EA3020 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "gh-ios";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "greenhouse-ios/greenhouse-ios-Prefix.pch";
@@ -463,6 +689,84 @@
 			};
 			name = Release;
 		};
+		77CBB5461952CF83007B2090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "gh-ios-second";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "greenhouse-ios-second/greenhouse-ios-second-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "greenhouse-ios-second/greenhouse-ios-second-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		77CBB5471952CF83007B2090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "gh-ios-second";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "greenhouse-ios-second/greenhouse-ios-second-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "greenhouse-ios-second/greenhouse-ios-second-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		77CBB5481952CF83007B2090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/greenhouse-ios.app/greenhouse-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "greenhouse-ios-second/greenhouse-ios-second-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "greenhouse-ios-secondTests/greenhouse-ios-secondTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		77CBB5491952CF83007B2090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/greenhouse-ios.app/greenhouse-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "greenhouse-ios-second/greenhouse-ios-second-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "greenhouse-ios-secondTests/greenhouse-ios-secondTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -492,6 +796,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		77CBB54A1952CF83007B2090 /* Build configuration list for PBXNativeTarget "greenhouse-ios-second" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77CBB5461952CF83007B2090 /* Debug */,
+				77CBB5471952CF83007B2090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77CBB54B1952CF83007B2090 /* Build configuration list for PBXNativeTarget "greenhouse-ios-secondTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77CBB5481952CF83007B2090 /* Debug */,
+				77CBB5491952CF83007B2090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
