@@ -28,17 +28,17 @@
 
 - (void)testFail
 {
-    XCTAssertFalse(NO);
+    XCTAssertFalse(YES);
 }
 
 - (void)testFalse
 {
-    XCTAssertFalse(NO);
+    XCTAssertFalse(YES);
 }
 
 - (void)testTrue
 {
-    XCTAssertTrue(YES);
+    XCTAssertTrue(NO);
 }
 
 
