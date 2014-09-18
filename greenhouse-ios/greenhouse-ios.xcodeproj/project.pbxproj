@@ -585,7 +585,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "git=/usr/local/git/bin/git\nversion=`$git describe --tags`\necho \"#define GIT_VERSION $version\" > InfoPlist.h\ntouch Info.plist";
+			shellScript = "git=/usr/local/git/bin/git\nversion=`$git describe --tags`\necho \"#define GIT_VERSION $version\" > InfoPlist.h";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -837,8 +837,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "greenhouse-ios/greenhouse-ios-Prefix.pch";
 				INFOPLIST_FILE = "greenhouse-ios/greenhouse-ios-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = binary;
 				"INFOPLIST_PREFIX_HEADER[sdk=*]" = InfoPlist.h;
 				INFOPLIST_PREPROCESS = YES;
+				"INFOPLIST_PREPROCESSOR_DEFINITIONS[sdk=*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -852,6 +854,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "greenhouse-ios/greenhouse-ios-Prefix.pch";
 				INFOPLIST_FILE = "greenhouse-ios/greenhouse-ios-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = binary;
 				"INFOPLIST_PREFIX_HEADER[sdk=*]" = InfoPlist.h;
 				INFOPLIST_PREPROCESS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
