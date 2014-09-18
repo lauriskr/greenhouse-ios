@@ -585,7 +585,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "git=/usr/bin/git\nversion=`$git describe --tags`\necho \"#define GIT_VERSION $version\" > InfoPlist.h";
+			shellScript = "git=/usr/bin/git\nversion=`$git describe --tags`\necho \"#define GIT_VERSION $version\" > InfoPlist.h\ntouch Info.plist";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1116,6 +1116,7 @@
 				77DC361B19CB047200E2E675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77DC361C19CB047200E2E675 /* Build configuration list for PBXNativeTarget "versionShellTests" */ = {
 			isa = XCConfigurationList;
@@ -1124,6 +1125,7 @@
 				77DC361E19CB047200E2E675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
