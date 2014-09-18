@@ -40,6 +40,12 @@
 		77CBB53B1952CF83007B2090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6EC18BF8B2E00EA3020 /* UIKit.framework */; };
 		77CBB5431952CF83007B2090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77CBB5411952CF83007B2090 /* InfoPlist.strings */; };
 		77CBB5451952CF83007B2090 /* greenhouse_ios_secondTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CBB5441952CF83007B2090 /* greenhouse_ios_secondTests.m */; };
+		77DC360219CB047100E2E675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC360119CB047100E2E675 /* AppDelegate.swift */; };
+		77DC360419CB047100E2E675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC360319CB047100E2E675 /* ViewController.swift */; };
+		77DC360719CB047100E2E675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77DC360519CB047100E2E675 /* Main.storyboard */; };
+		77DC360919CB047100E2E675 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77DC360819CB047100E2E675 /* Images.xcassets */; };
+		77DC360C19CB047100E2E675 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77DC360A19CB047100E2E675 /* LaunchScreen.xib */; };
+		77DC361819CB047200E2E675 /* versionShellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC361719CB047200E2E675 /* versionShellTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 77CBB5151952CF82007B2090;
 			remoteInfo = "greenhouse-ios-second";
+		};
+		77DC361219CB047200E2E675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7791B6DD18BF8B2D00EA3020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77DC35FC19CB047100E2E675;
+			remoteInfo = versionShell;
+		};
+		77DC362019CB04B000E2E675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7791B6DD18BF8B2D00EA3020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77DC35FC19CB047100E2E675;
+			remoteInfo = versionShell;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -100,6 +120,16 @@
 		77CBB5401952CF83007B2090 /* greenhouse-ios-secondTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "greenhouse-ios-secondTests-Info.plist"; sourceTree = "<group>"; };
 		77CBB5421952CF83007B2090 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77CBB5441952CF83007B2090 /* greenhouse_ios_secondTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = greenhouse_ios_secondTests.m; sourceTree = "<group>"; };
+		77DC35FD19CB047100E2E675 /* versionShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = versionShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77DC360019CB047100E2E675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77DC360119CB047100E2E675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77DC360319CB047100E2E675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77DC360619CB047100E2E675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77DC360819CB047100E2E675 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77DC360B19CB047100E2E675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		77DC361119CB047200E2E675 /* versionShellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = versionShellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77DC361619CB047200E2E675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77DC361719CB047200E2E675 /* versionShellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = versionShellTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +173,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77DC35FA19CB047100E2E675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DC360E19CB047200E2E675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -153,6 +197,8 @@
 				7791B71018BF8B2E00EA3020 /* greenhouse-iosTests */,
 				77CBB51A1952CF82007B2090 /* greenhouse-ios-second */,
 				77CBB53E1952CF83007B2090 /* greenhouse-ios-secondTests */,
+				77DC35FE19CB047100E2E675 /* versionShell */,
+				77DC361419CB047200E2E675 /* versionShellTests */,
 				7791B6E718BF8B2E00EA3020 /* Frameworks */,
 				7791B6E618BF8B2E00EA3020 /* Products */,
 			);
@@ -165,6 +211,8 @@
 				7791B70918BF8B2E00EA3020 /* greenhouse-iosTests.xctest */,
 				77CBB5161952CF82007B2090 /* greenhouse-ios-second.app */,
 				77CBB5381952CF83007B2090 /* greenhouse-ios-secondTests.xctest */,
+				77DC35FD19CB047100E2E675 /* versionShell.app */,
+				77DC361119CB047200E2E675 /* versionShellTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -272,6 +320,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		77DC35FE19CB047100E2E675 /* versionShell */ = {
+			isa = PBXGroup;
+			children = (
+				77DC360119CB047100E2E675 /* AppDelegate.swift */,
+				77DC360319CB047100E2E675 /* ViewController.swift */,
+				77DC360519CB047100E2E675 /* Main.storyboard */,
+				77DC360819CB047100E2E675 /* Images.xcassets */,
+				77DC360A19CB047100E2E675 /* LaunchScreen.xib */,
+				77DC35FF19CB047100E2E675 /* Supporting Files */,
+			);
+			path = versionShell;
+			sourceTree = "<group>";
+		};
+		77DC35FF19CB047100E2E675 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77DC360019CB047100E2E675 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77DC361419CB047200E2E675 /* versionShellTests */ = {
+			isa = PBXGroup;
+			children = (
+				77DC361719CB047200E2E675 /* versionShellTests.swift */,
+				77DC361519CB047200E2E675 /* Supporting Files */,
+			);
+			path = versionShellTests;
+			sourceTree = "<group>";
+		};
+		77DC361519CB047200E2E675 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77DC361619CB047200E2E675 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -286,6 +372,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				77DC362119CB04B000E2E675 /* PBXTargetDependency */,
 			);
 			name = "greenhouse-ios";
 			productName = "greenhouse-ios";
@@ -345,6 +432,42 @@
 			productReference = 77CBB5381952CF83007B2090 /* greenhouse-ios-secondTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		77DC35FC19CB047100E2E675 /* versionShell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77DC361919CB047200E2E675 /* Build configuration list for PBXNativeTarget "versionShell" */;
+			buildPhases = (
+				77DC35F919CB047100E2E675 /* Sources */,
+				77DC35FA19CB047100E2E675 /* Frameworks */,
+				77DC35FB19CB047100E2E675 /* Resources */,
+				77DC361F19CB047B00E2E675 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = versionShell;
+			productName = versionShell;
+			productReference = 77DC35FD19CB047100E2E675 /* versionShell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77DC361019CB047200E2E675 /* versionShellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77DC361C19CB047200E2E675 /* Build configuration list for PBXNativeTarget "versionShellTests" */;
+			buildPhases = (
+				77DC360D19CB047200E2E675 /* Sources */,
+				77DC360E19CB047200E2E675 /* Frameworks */,
+				77DC360F19CB047200E2E675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77DC361319CB047200E2E675 /* PBXTargetDependency */,
+			);
+			name = versionShellTests;
+			productName = versionShellTests;
+			productReference = 77DC361119CB047200E2E675 /* versionShellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -359,6 +482,13 @@
 					};
 					77CBB5371952CF83007B2090 = {
 						TestTargetID = 7791B6E418BF8B2D00EA3020;
+					};
+					77DC35FC19CB047100E2E675 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					77DC361019CB047200E2E675 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 77DC35FC19CB047100E2E675;
 					};
 				};
 			};
@@ -379,6 +509,8 @@
 				7791B70818BF8B2E00EA3020 /* greenhouse-iosTests */,
 				77CBB5151952CF82007B2090 /* greenhouse-ios-second */,
 				77CBB5371952CF83007B2090 /* greenhouse-ios-secondTests */,
+				77DC35FC19CB047100E2E675 /* versionShell */,
+				77DC361019CB047200E2E675 /* versionShellTests */,
 			);
 		};
 /* End PBXProject section */
@@ -422,7 +554,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77DC35FB19CB047100E2E675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DC360719CB047100E2E675 /* Main.storyboard in Resources */,
+				77DC360C19CB047100E2E675 /* LaunchScreen.xib in Resources */,
+				77DC360919CB047100E2E675 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DC360F19CB047200E2E675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77DC361F19CB047B00E2E675 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "git=/usr/local/git/bin/git\nversion=`$git describe --tags`\necho \"#define GIT_VERSION $version\" > InfoPlist.h\ntouch Info.plist";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7791B6E118BF8B2D00EA3020 /* Sources */ = {
@@ -464,6 +629,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77DC35F919CB047100E2E675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DC360419CB047100E2E675 /* ViewController.swift in Sources */,
+				77DC360219CB047100E2E675 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DC360D19CB047200E2E675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DC361819CB047200E2E675 /* versionShellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -476,6 +658,16 @@
 			isa = PBXTargetDependency;
 			target = 77CBB5151952CF82007B2090 /* greenhouse-ios-second */;
 			targetProxy = 77CBB53C1952CF83007B2090 /* PBXContainerItemProxy */;
+		};
+		77DC361319CB047200E2E675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77DC35FC19CB047100E2E675 /* versionShell */;
+			targetProxy = 77DC361219CB047200E2E675 /* PBXContainerItemProxy */;
+		};
+		77DC362119CB04B000E2E675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77DC35FC19CB047100E2E675 /* versionShell */;
+			targetProxy = 77DC362019CB04B000E2E675 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -542,6 +734,22 @@
 				77CBB5421952CF83007B2090 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77DC360519CB047100E2E675 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77DC360619CB047100E2E675 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77DC360A19CB047100E2E675 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77DC360B19CB047100E2E675 /* Base */,
+			);
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -629,6 +837,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "greenhouse-ios/greenhouse-ios-Prefix.pch";
 				INFOPLIST_FILE = "greenhouse-ios/greenhouse-ios-Info.plist";
+				"INFOPLIST_PREFIX_HEADER[sdk=*]" = InfoPlist.h;
+				INFOPLIST_PREPROCESS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -642,6 +852,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "greenhouse-ios/greenhouse-ios-Prefix.pch";
 				INFOPLIST_FILE = "greenhouse-ios/greenhouse-ios-Info.plist";
+				"INFOPLIST_PREFIX_HEADER[sdk=*]" = InfoPlist.h;
+				INFOPLIST_PREPROCESS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -767,6 +979,85 @@
 			};
 			name = Release;
 		};
+		77DC361A19CB047200E2E675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = versionShell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77DC361B19CB047200E2E675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = versionShell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		77DC361D19CB047200E2E675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = versionShellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/versionShell.app/versionShell";
+			};
+			name = Debug;
+		};
+		77DC361E19CB047200E2E675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = versionShellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/versionShell.app/versionShell";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -804,12 +1095,30 @@
 				77CBB5471952CF83007B2090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77CBB54B1952CF83007B2090 /* Build configuration list for PBXNativeTarget "greenhouse-ios-secondTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77CBB5481952CF83007B2090 /* Debug */,
 				77CBB5491952CF83007B2090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77DC361919CB047200E2E675 /* Build configuration list for PBXNativeTarget "versionShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77DC361A19CB047200E2E675 /* Debug */,
+				77DC361B19CB047200E2E675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77DC361C19CB047200E2E675 /* Build configuration list for PBXNativeTarget "versionShellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77DC361D19CB047200E2E675 /* Debug */,
+				77DC361E19CB047200E2E675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

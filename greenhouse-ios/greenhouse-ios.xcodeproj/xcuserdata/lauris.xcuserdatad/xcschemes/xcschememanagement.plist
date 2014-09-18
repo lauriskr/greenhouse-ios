@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>versionShell.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -38,6 +43,16 @@
 			<true/>
 		</dict>
 		<key>77CBB5371952CF83007B2090</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77DC35FC19CB047100E2E675</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77DC361019CB047200E2E675</key>
 		<dict>
 			<key>primary</key>
 			<true/>
