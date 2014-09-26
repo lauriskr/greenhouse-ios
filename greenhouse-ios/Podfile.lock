@@ -1,48 +1,10 @@
 PODS:
-  - AFNetworking (2.0.0):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-    - AFNetworking/UIKit
-  - AFNetworking/NSURLConnection (2.0.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.0.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.0.0)
-  - AFNetworking/Security (2.0.0)
-  - AFNetworking/Serialization (2.0.0)
-  - AFNetworking/UIKit (2.0.0):
-    - AFNetworking/NSURLConnection
-  - JXHTTP (1.0.0)
-  - TMTumblrSDK (1.0.8):
-    - TMTumblrSDK/Activity
-    - TMTumblrSDK/APIClient
-    - TMTumblrSDK/AppClient
-    - TMTumblrSDK/Core
-  - TMTumblrSDK/Activity (1.0.8)
-  - TMTumblrSDK/APIClient (1.0.8):
-    - JXHTTP (= 1.0.0)
-    - TMTumblrSDK/APIClient/Authentication
-  - TMTumblrSDK/APIClient/Authentication (1.0.8):
-    - JXHTTP (= 1.0.0)
-    - TMTumblrSDK/Core
-  - TMTumblrSDK/AppClient (1.0.8):
-    - TMTumblrSDK/Core
-  - TMTumblrSDK/Core (1.0.8)
+  - ACPButton (1.0.0)
 
 DEPENDENCIES:
-  - AFNetworking (= 2.0)
-  - TMTumblrSDK
+  - ACPButton (~> 1.0.0)
 
 SPEC CHECKSUMS:
-  AFNetworking: 6d4a33f2a7edf1d394455c543b446fdfae6b4082
-  JXHTTP: dd1fe9c6fa21e7b2be9724ef2be16c66aafc44b4
-  TMTumblrSDK: b9fada23e88b42ade2b492a6db95bfb1dff6304b
+  ACPButton: 1df0abd6b87fd48dbb8c44b6271d9afa44806bdc
 
-COCOAPODS: 0.32.1
+COCOAPODS: 0.33.1
