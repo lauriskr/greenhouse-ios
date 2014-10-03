@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GHActionExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>greenhouse-ios.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>7724897419DE996C0058E934</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>7791B6E418BF8B2D00EA3020</key>
 		<dict>
 			<key>primary</key>
