@@ -64,7 +64,11 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <IDERemoteRunnable
+         RemotePath = "/Users/lauris/Library/Developer/CoreSimulator/Devices/20DB83E4-DA84-4C87-A849-7B8597736639/data/Containers/Bundle/Application/D50C69F5-F0D2-4F39-A9C0-170760FC99EB/greenhouse-ios.app"
+         BundleIdentifier = "/Users/lauris/Library/Developer/CoreSimulator/Devices/20DB83E4-DA84-4C87-A849-7B8597736639/data/Containers/Bundle/Application/D50C69F5-F0D2-4F39-A9C0-170760FC99EB/greenhouse-ios.app">
+      </IDERemoteRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7791B6E418BF8B2D00EA3020"
@@ -72,7 +76,7 @@
             BlueprintName = "greenhouse-ios"
             ReferencedContainer = "container:greenhouse-ios.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
