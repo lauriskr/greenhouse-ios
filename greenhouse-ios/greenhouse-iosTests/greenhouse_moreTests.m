@@ -17,6 +17,7 @@
 - (void)setUp
 {
     [super setUp];
+    [NSThread sleepForTimeInterval:1.0f];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
@@ -24,6 +25,7 @@
 {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
+    [NSThread sleepForTimeInterval:1.0f];
 }
 
 - (void)testKiisuMiisu1234567890123456789012345678901234567890aaaAABBbbCC
