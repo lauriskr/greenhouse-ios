@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>842FCCBF-EEA0-4DD4-BFF9-0F9F0A4C175E</string>
+	<string>60B79C92-699B-4D9D-86D2-B96F714F5531</string>
 	<key>IDESourceControlProjectName</key>
-	<string>greenhouse-ios</string>
+	<string>greenhouse ios</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>8369E5DF67CE86B8EB9530E7A71FE206D781490D</key>
 		<string>github.com:lauriskr/greenhouse-ios</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>greenhouse-ios/greenhouse-ios.xcodeproj</string>
+	<string>greenhouse-ios/greenhouse ios.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8369E5DF67CE86B8EB9530E7A71FE206D781490D</key>
