@@ -9,10 +9,15 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>greenhouse-ios2.xcscheme</key>
+		<key>greenhouse-ios2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>staticlib.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>7791B70818BF8B2E00EA3020</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77E64D1E1A0A31BB002DCEB5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77E64D281A0A31BB002DCEB5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

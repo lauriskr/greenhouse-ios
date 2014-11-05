@@ -24,6 +24,9 @@
 		7791B70D18BF8B2E00EA3020 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6EC18BF8B2E00EA3020 /* UIKit.framework */; };
 		7791B71518BF8B2E00EA3020 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7791B71318BF8B2E00EA3020 /* InfoPlist.strings */; };
 		7791B71718BF8B2E00EA3020 /* greenhouse_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7791B71618BF8B2E00EA3020 /* greenhouse_iosTests.m */; };
+		77E64D221A0A31BB002DCEB5 /* staticlib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 77E64D211A0A31BB002DCEB5 /* staticlib.h */; };
+		77E64D241A0A31BB002DCEB5 /* staticlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E64D231A0A31BB002DCEB5 /* staticlib.m */; };
+		77E64D2A1A0A31BB002DCEB5 /* libstaticlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E64D1F1A0A31BB002DCEB5 /* libstaticlib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +37,27 @@
 			remoteGlobalIDString = 7791B6E418BF8B2D00EA3020;
 			remoteInfo = "greenhouse-ios";
 		};
+		77E64D2B1A0A31BB002DCEB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7791B6DD18BF8B2D00EA3020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77E64D1E1A0A31BB002DCEB5;
+			remoteInfo = staticlib;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		77E64D1D1A0A31BB002DCEB5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				77E64D221A0A31BB002DCEB5 /* staticlib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		776BEEB8192A00C900FB13E6 /* greenhouse_otherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = greenhouse_otherTests.m; sourceTree = "<group>"; };
@@ -59,6 +82,11 @@
 		7791B71218BF8B2E00EA3020 /* greenhouse-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "greenhouse-iosTests-Info.plist"; sourceTree = "<group>"; };
 		7791B71418BF8B2E00EA3020 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7791B71618BF8B2E00EA3020 /* greenhouse_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = greenhouse_iosTests.m; sourceTree = "<group>"; };
+		77E64D1F1A0A31BB002DCEB5 /* libstaticlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libstaticlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E64D211A0A31BB002DCEB5 /* staticlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = staticlib.h; sourceTree = "<group>"; };
+		77E64D231A0A31BB002DCEB5 /* staticlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = staticlib.m; sourceTree = "<group>"; };
+		77E64D291A0A31BB002DCEB5 /* staticlibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = staticlibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E64D2F1A0A31BB002DCEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +110,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77E64D1C1A0A31BB002DCEB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E64D261A0A31BB002DCEB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E64D2A1A0A31BB002DCEB5 /* libstaticlib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,6 +133,8 @@
 			children = (
 				7791B6EE18BF8B2E00EA3020 /* greenhouse-ios */,
 				7791B71018BF8B2E00EA3020 /* greenhouse-iosTests */,
+				77E64D201A0A31BB002DCEB5 /* staticlib */,
+				77E64D2D1A0A31BB002DCEB5 /* staticlibTests */,
 				7791B6E718BF8B2E00EA3020 /* Frameworks */,
 				7791B6E618BF8B2E00EA3020 /* Products */,
 			);
@@ -100,6 +145,8 @@
 			children = (
 				7791B6E518BF8B2E00EA3020 /* greenhouse-ios.app */,
 				7791B70918BF8B2E00EA3020 /* greenhouse-iosTests.xctest */,
+				77E64D1F1A0A31BB002DCEB5 /* libstaticlib.a */,
+				77E64D291A0A31BB002DCEB5 /* staticlibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,6 +208,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		77E64D201A0A31BB002DCEB5 /* staticlib */ = {
+			isa = PBXGroup;
+			children = (
+				77E64D211A0A31BB002DCEB5 /* staticlib.h */,
+				77E64D231A0A31BB002DCEB5 /* staticlib.m */,
+			);
+			path = staticlib;
+			sourceTree = "<group>";
+		};
+		77E64D2D1A0A31BB002DCEB5 /* staticlibTests */ = {
+			isa = PBXGroup;
+			children = (
+				77E64D2E1A0A31BB002DCEB5 /* Supporting Files */,
+			);
+			path = staticlibTests;
+			sourceTree = "<group>";
+		};
+		77E64D2E1A0A31BB002DCEB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77E64D2F1A0A31BB002DCEB5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,6 +271,41 @@
 			productReference = 7791B70918BF8B2E00EA3020 /* greenhouse-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		77E64D1E1A0A31BB002DCEB5 /* staticlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E64D341A0A31BB002DCEB5 /* Build configuration list for PBXNativeTarget "staticlib" */;
+			buildPhases = (
+				77E64D1B1A0A31BB002DCEB5 /* Sources */,
+				77E64D1C1A0A31BB002DCEB5 /* Frameworks */,
+				77E64D1D1A0A31BB002DCEB5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = staticlib;
+			productName = staticlib;
+			productReference = 77E64D1F1A0A31BB002DCEB5 /* libstaticlib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		77E64D281A0A31BB002DCEB5 /* staticlibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E64D351A0A31BB002DCEB5 /* Build configuration list for PBXNativeTarget "staticlibTests" */;
+			buildPhases = (
+				77E64D251A0A31BB002DCEB5 /* Sources */,
+				77E64D261A0A31BB002DCEB5 /* Frameworks */,
+				77E64D271A0A31BB002DCEB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77E64D2C1A0A31BB002DCEB5 /* PBXTargetDependency */,
+			);
+			name = staticlibTests;
+			productName = staticlibTests;
+			productReference = 77E64D291A0A31BB002DCEB5 /* staticlibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +317,12 @@
 				TargetAttributes = {
 					7791B70818BF8B2E00EA3020 = {
 						TestTargetID = 7791B6E418BF8B2D00EA3020;
+					};
+					77E64D1E1A0A31BB002DCEB5 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					77E64D281A0A31BB002DCEB5 = {
+						CreatedOnToolsVersion = 6.1;
 					};
 				};
 			};
@@ -228,6 +341,8 @@
 			targets = (
 				7791B6E418BF8B2D00EA3020 /* greenhouse-ios */,
 				7791B70818BF8B2E00EA3020 /* greenhouse-iosTests */,
+				77E64D1E1A0A31BB002DCEB5 /* staticlib */,
+				77E64D281A0A31BB002DCEB5 /* staticlibTests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +364,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7791B71518BF8B2E00EA3020 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E64D271A0A31BB002DCEB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +397,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77E64D1B1A0A31BB002DCEB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E64D241A0A31BB002DCEB5 /* staticlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E64D251A0A31BB002DCEB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -282,6 +419,11 @@
 			isa = PBXTargetDependency;
 			target = 7791B6E418BF8B2D00EA3020 /* greenhouse-ios */;
 			targetProxy = 7791B70E18BF8B2E00EA3020 /* PBXContainerItemProxy */;
+		};
+		77E64D2C1A0A31BB002DCEB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77E64D1E1A0A31BB002DCEB5 /* staticlib */;
+			targetProxy = 77E64D2B1A0A31BB002DCEB5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -463,6 +605,78 @@
 			};
 			name = Release;
 		};
+		77E64D301A0A31BB002DCEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		77E64D311A0A31BB002DCEB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		77E64D321A0A31BB002DCEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = staticlibTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77E64D331A0A31BB002DCEB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = staticlibTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -492,6 +706,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		77E64D341A0A31BB002DCEB5 /* Build configuration list for PBXNativeTarget "staticlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E64D301A0A31BB002DCEB5 /* Debug */,
+				77E64D311A0A31BB002DCEB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77E64D351A0A31BB002DCEB5 /* Build configuration list for PBXNativeTarget "staticlibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E64D321A0A31BB002DCEB5 /* Debug */,
+				77E64D331A0A31BB002DCEB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
