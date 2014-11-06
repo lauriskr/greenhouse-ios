@@ -410,7 +410,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "echo \"SCRIPT START\"\nwhich mogenerator\nls -l /usr/local/bin | grep mogenerator\nmogenerator";
+			shellScript = "echo \"SCRIPT START\"\nwhich mogenerator\nls -l /usr/local/bin | grep mogenerator\necho \"PATH: $PATH\"\nmogenerator";
 		};
 /* End PBXShellScriptBuildPhase section */
 
