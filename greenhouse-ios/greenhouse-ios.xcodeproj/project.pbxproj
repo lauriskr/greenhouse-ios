@@ -253,6 +253,7 @@
 				7791B6E118BF8B2D00EA3020 /* Sources */,
 				7791B6E218BF8B2D00EA3020 /* Frameworks */,
 				7791B6E318BF8B2D00EA3020 /* Resources */,
+				77A5B0CF1A0BD18500FDFD86 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -396,6 +397,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77A5B0CF1A0BD18500FDFD86 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo $(mogenerator)";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7791B6E118BF8B2D00EA3020 /* Sources */ = {
@@ -761,6 +778,7 @@
 				77E64D5A1A0A49AE002DCEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77E64D5B1A0A49AE002DCEB5 /* Build configuration list for PBXNativeTarget "greenhouse-ios 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -769,6 +787,7 @@
 				77E64D5D1A0A49AE002DCEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
