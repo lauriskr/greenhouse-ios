@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AggregateTarget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>greenhouse ios 2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>7791B70818BF8B2E00EA3020</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77DEC1B01A16691300BED229</key>
 		<dict>
 			<key>primary</key>
 			<true/>

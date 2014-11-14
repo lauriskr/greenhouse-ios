@@ -6,6 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		77DEC1B01A16691300BED229 /* AggregateTarget */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 77DEC1B31A16691300BED229 /* Build configuration list for PBXAggregateTarget "AggregateTarget" */;
+			buildPhases = (
+			);
+			dependencies = (
+				77DEC1B71A16692200BED229 /* PBXTargetDependency */,
+				77DEC1B51A16691F00BED229 /* PBXTargetDependency */,
+			);
+			name = AggregateTarget;
+			productName = AggregateTarget;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		776BEEB9192A00C900FB13E6 /* greenhouse_otherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776BEEB8192A00C900FB13E6 /* greenhouse_otherTests.m */; };
 		776BEEBD192A01DD00FB13E6 /* greenhouse_moreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776BEEBC192A01DD00FB13E6 /* greenhouse_moreTests.m */; };
@@ -40,6 +55,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7791B6E418BF8B2D00EA3020;
 			remoteInfo = "greenhouse-ios";
+		};
+		77DEC1B41A16691F00BED229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7791B6DD18BF8B2D00EA3020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7791B6E418BF8B2D00EA3020;
+			remoteInfo = "greenhouse-ios";
+		};
+		77DEC1B61A16692200BED229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7791B6DD18BF8B2D00EA3020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77E64D391A0A49AD002DCEB5;
+			remoteInfo = "greenhouse-ios 2";
 		};
 		77E64D511A0A49AE002DCEB5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -328,6 +357,9 @@
 					7791B70818BF8B2E00EA3020 = {
 						TestTargetID = 7791B6E418BF8B2D00EA3020;
 					};
+					77DEC1B01A16691300BED229 = {
+						CreatedOnToolsVersion = 6.1;
+					};
 					77E64D391A0A49AD002DCEB5 = {
 						CreatedOnToolsVersion = 6.1;
 					};
@@ -354,6 +386,7 @@
 				7791B70818BF8B2E00EA3020 /* greenhouse-iosTests */,
 				77E64D391A0A49AD002DCEB5 /* greenhouse-ios 2 */,
 				77E64D4F1A0A49AE002DCEB5 /* greenhouse-ios 2Tests */,
+				77DEC1B01A16691300BED229 /* AggregateTarget */,
 			);
 		};
 /* End PBXProject section */
@@ -443,6 +476,16 @@
 			isa = PBXTargetDependency;
 			target = 7791B6E418BF8B2D00EA3020 /* greenhouse-ios */;
 			targetProxy = 7791B70E18BF8B2E00EA3020 /* PBXContainerItemProxy */;
+		};
+		77DEC1B51A16691F00BED229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7791B6E418BF8B2D00EA3020 /* greenhouse-ios */;
+			targetProxy = 77DEC1B41A16691F00BED229 /* PBXContainerItemProxy */;
+		};
+		77DEC1B71A16692200BED229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77E64D391A0A49AD002DCEB5 /* greenhouse-ios 2 */;
+			targetProxy = 77DEC1B61A16692200BED229 /* PBXContainerItemProxy */;
 		};
 		77E64D521A0A49AE002DCEB5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -645,6 +688,20 @@
 			};
 			name = Release;
 		};
+		77DEC1B11A16691300BED229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77DEC1B21A16691300BED229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		77E64D591A0A49AE002DCEB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -754,6 +811,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		77DEC1B31A16691300BED229 /* Build configuration list for PBXAggregateTarget "AggregateTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77DEC1B11A16691300BED229 /* Debug */,
+				77DEC1B21A16691300BED229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		77E64D581A0A49AE002DCEB5 /* Build configuration list for PBXNativeTarget "greenhouse-ios 2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -761,6 +826,7 @@
 				77E64D5A1A0A49AE002DCEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77E64D5B1A0A49AE002DCEB5 /* Build configuration list for PBXNativeTarget "greenhouse-ios 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -769,6 +835,7 @@
 				77E64D5D1A0A49AE002DCEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
