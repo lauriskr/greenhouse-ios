@@ -71,7 +71,13 @@ public class UICatalogTest {
     }
 
     @Test
-    public void testExample() {
+    public void testExampleFail() {
         assertTrue(false);
     }
+    
+    @Test
+    public void testExampleSuccess() {
+        assertTrue(true);
+    }
+    
 }
