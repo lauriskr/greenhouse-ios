@@ -40,38 +40,6 @@
 		77CBB53B1952CF83007B2090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6EC18BF8B2E00EA3020 /* UIKit.framework */; };
 		77CBB5431952CF83007B2090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77CBB5411952CF83007B2090 /* InfoPlist.strings */; };
 		77CBB5451952CF83007B2090 /* greenhouse_ios_secondTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CBB5441952CF83007B2090 /* greenhouse_ios_secondTests.m */; };
-		77CDA98B1A71216E00985DB9 /* pom.xml in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9711A71216E00985DB9 /* pom.xml */; };
-		77CDA98C1A71216E00985DB9 /* pom.xml in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9711A71216E00985DB9 /* pom.xml */; };
-		77CDA98D1A71216E00985DB9 /* pom.xml in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9711A71216E00985DB9 /* pom.xml */; };
-		77CDA98E1A71216E00985DB9 /* pom.xml in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9711A71216E00985DB9 /* pom.xml */; };
-		77CDA98F1A71216E00985DB9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 77CDA9721A71216E00985DB9 /* README.md */; };
-		77CDA9901A71216E00985DB9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 77CDA9721A71216E00985DB9 /* README.md */; };
-		77CDA9911A71216E00985DB9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 77CDA9721A71216E00985DB9 /* README.md */; };
-		77CDA9921A71216E00985DB9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 77CDA9721A71216E00985DB9 /* README.md */; };
-		77CDA9931A71216E00985DB9 /* UICatalogTest.java in Sources */ = {isa = PBXBuildFile; fileRef = 77CDA9791A71216E00985DB9 /* UICatalogTest.java */; };
-		77CDA9941A71216E00985DB9 /* UICatalogTest.java in Sources */ = {isa = PBXBuildFile; fileRef = 77CDA9791A71216E00985DB9 /* UICatalogTest.java */; };
-		77CDA9951A71216E00985DB9 /* UICatalogTest.java in Sources */ = {isa = PBXBuildFile; fileRef = 77CDA9791A71216E00985DB9 /* UICatalogTest.java */; };
-		77CDA9961A71216E00985DB9 /* UICatalogTest.java in Sources */ = {isa = PBXBuildFile; fileRef = 77CDA9791A71216E00985DB9 /* UICatalogTest.java */; };
-		77CDA9971A71216E00985DB9 /* createdFiles.lst in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9811A71216E00985DB9 /* createdFiles.lst */; };
-		77CDA9981A71216E00985DB9 /* createdFiles.lst in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9811A71216E00985DB9 /* createdFiles.lst */; };
-		77CDA9991A71216E00985DB9 /* createdFiles.lst in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9811A71216E00985DB9 /* createdFiles.lst */; };
-		77CDA99A1A71216E00985DB9 /* createdFiles.lst in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9811A71216E00985DB9 /* createdFiles.lst */; };
-		77CDA99B1A71216E00985DB9 /* inputFiles.lst in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9821A71216E00985DB9 /* inputFiles.lst */; };
-		77CDA99C1A71216E00985DB9 /* inputFiles.lst in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9821A71216E00985DB9 /* inputFiles.lst */; };
-		77CDA99D1A71216E00985DB9 /* inputFiles.lst in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9821A71216E00985DB9 /* inputFiles.lst */; };
-		77CDA99E1A71216E00985DB9 /* inputFiles.lst in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9821A71216E00985DB9 /* inputFiles.lst */; };
-		77CDA99F1A71216E00985DB9 /* com.saucelabs.appium.UICatalogTest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9841A71216E00985DB9 /* com.saucelabs.appium.UICatalogTest.txt */; };
-		77CDA9A01A71216E00985DB9 /* com.saucelabs.appium.UICatalogTest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9841A71216E00985DB9 /* com.saucelabs.appium.UICatalogTest.txt */; };
-		77CDA9A11A71216E00985DB9 /* com.saucelabs.appium.UICatalogTest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9841A71216E00985DB9 /* com.saucelabs.appium.UICatalogTest.txt */; };
-		77CDA9A21A71216E00985DB9 /* com.saucelabs.appium.UICatalogTest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9841A71216E00985DB9 /* com.saucelabs.appium.UICatalogTest.txt */; };
-		77CDA9A31A71216E00985DB9 /* TEST-com.saucelabs.appium.UICatalogTest.xml in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9851A71216E00985DB9 /* TEST-com.saucelabs.appium.UICatalogTest.xml */; };
-		77CDA9A41A71216E00985DB9 /* TEST-com.saucelabs.appium.UICatalogTest.xml in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9851A71216E00985DB9 /* TEST-com.saucelabs.appium.UICatalogTest.xml */; };
-		77CDA9A51A71216E00985DB9 /* TEST-com.saucelabs.appium.UICatalogTest.xml in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9851A71216E00985DB9 /* TEST-com.saucelabs.appium.UICatalogTest.xml */; };
-		77CDA9A61A71216E00985DB9 /* TEST-com.saucelabs.appium.UICatalogTest.xml in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA9851A71216E00985DB9 /* TEST-com.saucelabs.appium.UICatalogTest.xml */; };
-		77CDA9A71A71216E00985DB9 /* UICatalogTest.class in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA98A1A71216E00985DB9 /* UICatalogTest.class */; };
-		77CDA9A81A71216E00985DB9 /* UICatalogTest.class in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA98A1A71216E00985DB9 /* UICatalogTest.class */; };
-		77CDA9A91A71216E00985DB9 /* UICatalogTest.class in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA98A1A71216E00985DB9 /* UICatalogTest.class */; };
-		77CDA9AA1A71216E00985DB9 /* UICatalogTest.class in Resources */ = {isa = PBXBuildFile; fileRef = 77CDA98A1A71216E00985DB9 /* UICatalogTest.class */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,14 +100,6 @@
 		77CBB5401952CF83007B2090 /* greenhouse-ios-secondTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "greenhouse-ios-secondTests-Info.plist"; sourceTree = "<group>"; };
 		77CBB5421952CF83007B2090 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77CBB5441952CF83007B2090 /* greenhouse_ios_secondTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = greenhouse_ios_secondTests.m; sourceTree = "<group>"; };
-		77CDA9711A71216E00985DB9 /* pom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pom.xml; sourceTree = "<group>"; };
-		77CDA9721A71216E00985DB9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		77CDA9791A71216E00985DB9 /* UICatalogTest.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UICatalogTest.java; sourceTree = "<group>"; };
-		77CDA9811A71216E00985DB9 /* createdFiles.lst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = createdFiles.lst; sourceTree = "<group>"; };
-		77CDA9821A71216E00985DB9 /* inputFiles.lst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = inputFiles.lst; sourceTree = "<group>"; };
-		77CDA9841A71216E00985DB9 /* com.saucelabs.appium.UICatalogTest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = com.saucelabs.appium.UICatalogTest.txt; sourceTree = "<group>"; };
-		77CDA9851A71216E00985DB9 /* TEST-com.saucelabs.appium.UICatalogTest.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "TEST-com.saucelabs.appium.UICatalogTest.xml"; sourceTree = "<group>"; };
-		77CDA98A1A71216E00985DB9 /* UICatalogTest.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = UICatalogTest.class; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,7 +155,6 @@
 				77CBB53E1952CF83007B2090 /* greenhouse-ios-secondTests */,
 				7791B6E718BF8B2E00EA3020 /* Frameworks */,
 				7791B6E618BF8B2E00EA3020 /* Products */,
-				77CDA9701A71216E00985DB9 /* appium */,
 			);
 			sourceTree = "<group>";
 		};
@@ -311,165 +270,6 @@
 				77CBB5411952CF83007B2090 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		77CDA9701A71216E00985DB9 /* appium */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA9711A71216E00985DB9 /* pom.xml */,
-				77CDA9721A71216E00985DB9 /* README.md */,
-				77CDA9731A71216E00985DB9 /* src */,
-				77CDA97A1A71216E00985DB9 /* target */,
-			);
-			path = appium;
-			sourceTree = "<group>";
-		};
-		77CDA9731A71216E00985DB9 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA9741A71216E00985DB9 /* test */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		77CDA9741A71216E00985DB9 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA9751A71216E00985DB9 /* java */,
-			);
-			path = test;
-			sourceTree = "<group>";
-		};
-		77CDA9751A71216E00985DB9 /* java */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA9761A71216E00985DB9 /* com */,
-			);
-			path = java;
-			sourceTree = "<group>";
-		};
-		77CDA9761A71216E00985DB9 /* com */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA9771A71216E00985DB9 /* saucelabs */,
-			);
-			path = com;
-			sourceTree = "<group>";
-		};
-		77CDA9771A71216E00985DB9 /* saucelabs */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA9781A71216E00985DB9 /* appium */,
-			);
-			path = saucelabs;
-			sourceTree = "<group>";
-		};
-		77CDA9781A71216E00985DB9 /* appium */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA9791A71216E00985DB9 /* UICatalogTest.java */,
-			);
-			path = appium;
-			sourceTree = "<group>";
-		};
-		77CDA97A1A71216E00985DB9 /* target */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA97B1A71216E00985DB9 /* generated-test-sources */,
-				77CDA97D1A71216E00985DB9 /* maven-status */,
-				77CDA9831A71216E00985DB9 /* surefire-reports */,
-				77CDA9861A71216E00985DB9 /* test-classes */,
-			);
-			path = target;
-			sourceTree = "<group>";
-		};
-		77CDA97B1A71216E00985DB9 /* generated-test-sources */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA97C1A71216E00985DB9 /* test-annotations */,
-			);
-			path = "generated-test-sources";
-			sourceTree = "<group>";
-		};
-		77CDA97C1A71216E00985DB9 /* test-annotations */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "test-annotations";
-			sourceTree = "<group>";
-		};
-		77CDA97D1A71216E00985DB9 /* maven-status */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA97E1A71216E00985DB9 /* maven-compiler-plugin */,
-			);
-			path = "maven-status";
-			sourceTree = "<group>";
-		};
-		77CDA97E1A71216E00985DB9 /* maven-compiler-plugin */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA97F1A71216E00985DB9 /* testCompile */,
-			);
-			path = "maven-compiler-plugin";
-			sourceTree = "<group>";
-		};
-		77CDA97F1A71216E00985DB9 /* testCompile */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA9801A71216E00985DB9 /* default-testCompile */,
-			);
-			path = testCompile;
-			sourceTree = "<group>";
-		};
-		77CDA9801A71216E00985DB9 /* default-testCompile */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA9811A71216E00985DB9 /* createdFiles.lst */,
-				77CDA9821A71216E00985DB9 /* inputFiles.lst */,
-			);
-			path = "default-testCompile";
-			sourceTree = "<group>";
-		};
-		77CDA9831A71216E00985DB9 /* surefire-reports */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA9841A71216E00985DB9 /* com.saucelabs.appium.UICatalogTest.txt */,
-				77CDA9851A71216E00985DB9 /* TEST-com.saucelabs.appium.UICatalogTest.xml */,
-			);
-			path = "surefire-reports";
-			sourceTree = "<group>";
-		};
-		77CDA9861A71216E00985DB9 /* test-classes */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA9871A71216E00985DB9 /* com */,
-			);
-			path = "test-classes";
-			sourceTree = "<group>";
-		};
-		77CDA9871A71216E00985DB9 /* com */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA9881A71216E00985DB9 /* saucelabs */,
-			);
-			path = com;
-			sourceTree = "<group>";
-		};
-		77CDA9881A71216E00985DB9 /* saucelabs */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA9891A71216E00985DB9 /* appium */,
-			);
-			path = saucelabs;
-			sourceTree = "<group>";
-		};
-		77CDA9891A71216E00985DB9 /* appium */ = {
-			isa = PBXGroup;
-			children = (
-				77CDA98A1A71216E00985DB9 /* UICatalogTest.class */,
-			);
-			path = appium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -588,15 +388,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77CDA9A31A71216E00985DB9 /* TEST-com.saucelabs.appium.UICatalogTest.xml in Resources */,
 				7791B6FF18BF8B2E00EA3020 /* Main_iPad.storyboard in Resources */,
 				7791B70418BF8B2E00EA3020 /* Images.xcassets in Resources */,
-				77CDA98B1A71216E00985DB9 /* pom.xml in Resources */,
-				77CDA9A71A71216E00985DB9 /* UICatalogTest.class in Resources */,
 				7791B6FC18BF8B2E00EA3020 /* Main_iPhone.storyboard in Resources */,
-				77CDA99B1A71216E00985DB9 /* inputFiles.lst in Resources */,
-				77CDA99F1A71216E00985DB9 /* com.saucelabs.appium.UICatalogTest.txt in Resources */,
-				77CDA9971A71216E00985DB9 /* createdFiles.lst in Resources */,
 				7791B6F318BF8B2E00EA3020 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,12 +399,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77CDA9A81A71216E00985DB9 /* UICatalogTest.class in Resources */,
-				77CDA9A41A71216E00985DB9 /* TEST-com.saucelabs.appium.UICatalogTest.xml in Resources */,
-				77CDA98C1A71216E00985DB9 /* pom.xml in Resources */,
-				77CDA9981A71216E00985DB9 /* createdFiles.lst in Resources */,
-				77CDA9A01A71216E00985DB9 /* com.saucelabs.appium.UICatalogTest.txt in Resources */,
-				77CDA99C1A71216E00985DB9 /* inputFiles.lst in Resources */,
 				7791B71518BF8B2E00EA3020 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -619,15 +407,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77CDA9A51A71216E00985DB9 /* TEST-com.saucelabs.appium.UICatalogTest.xml in Resources */,
 				77CBB52B1952CF82007B2090 /* Main_iPad.storyboard in Resources */,
 				77CBB5331952CF83007B2090 /* Images.xcassets in Resources */,
-				77CDA98D1A71216E00985DB9 /* pom.xml in Resources */,
-				77CDA9A91A71216E00985DB9 /* UICatalogTest.class in Resources */,
 				77CBB5281952CF82007B2090 /* Main_iPhone.storyboard in Resources */,
-				77CDA99D1A71216E00985DB9 /* inputFiles.lst in Resources */,
-				77CDA9A11A71216E00985DB9 /* com.saucelabs.appium.UICatalogTest.txt in Resources */,
-				77CDA9991A71216E00985DB9 /* createdFiles.lst in Resources */,
 				77CBB51F1952CF82007B2090 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -636,12 +418,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77CDA9AA1A71216E00985DB9 /* UICatalogTest.class in Resources */,
-				77CDA9A61A71216E00985DB9 /* TEST-com.saucelabs.appium.UICatalogTest.xml in Resources */,
-				77CDA98E1A71216E00985DB9 /* pom.xml in Resources */,
-				77CDA99A1A71216E00985DB9 /* createdFiles.lst in Resources */,
-				77CDA9A21A71216E00985DB9 /* com.saucelabs.appium.UICatalogTest.txt in Resources */,
-				77CDA99E1A71216E00985DB9 /* inputFiles.lst in Resources */,
 				77CBB5431952CF83007B2090 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -655,9 +431,7 @@
 			files = (
 				7791B70218BF8B2E00EA3020 /* ViewController.m in Sources */,
 				7791B6F918BF8B2E00EA3020 /* AppDelegate.m in Sources */,
-				77CDA98F1A71216E00985DB9 /* README.md in Sources */,
 				7791B6F518BF8B2E00EA3020 /* main.m in Sources */,
-				77CDA9931A71216E00985DB9 /* UICatalogTest.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,9 +441,7 @@
 			files = (
 				776BEEBD192A01DD00FB13E6 /* greenhouse_moreTests.m in Sources */,
 				7791B71718BF8B2E00EA3020 /* greenhouse_iosTests.m in Sources */,
-				77CDA9901A71216E00985DB9 /* README.md in Sources */,
 				776BEEB9192A00C900FB13E6 /* greenhouse_otherTests.m in Sources */,
-				77CDA9941A71216E00985DB9 /* UICatalogTest.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,8 +451,6 @@
 			files = (
 				77CBB52E1952CF82007B2090 /* SECMasterViewController.m in Sources */,
 				77CBB5311952CF82007B2090 /* SECDetailViewController.m in Sources */,
-				77CDA9911A71216E00985DB9 /* README.md in Sources */,
-				77CDA9951A71216E00985DB9 /* UICatalogTest.java in Sources */,
 				77CBB5251952CF82007B2090 /* SECAppDelegate.m in Sources */,
 				77CBB5211952CF82007B2090 /* main.m in Sources */,
 			);
@@ -690,8 +460,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77CDA9961A71216E00985DB9 /* UICatalogTest.java in Sources */,
-				77CDA9921A71216E00985DB9 /* README.md in Sources */,
 				77CBB5451952CF83007B2090 /* greenhouse_ios_secondTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
