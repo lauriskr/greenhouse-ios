@@ -4,7 +4,7 @@
 //     vendor/bin/phpunit SimpleTest.php
 
 require_once "vendor/autoload.php";
-define("APP_PATH", realpath(dirname(__FILE__).'/../../../build/Debug-iphonesimulator/greenhouse-ios.app'));
+define("APP_PATH", realpath(dirname(__FILE__).'/../../../../build/Debug-iphonesimulator/greenhouse-ios.app'));
 if (!APP_PATH) {
     die("App did not exist!");
 }
