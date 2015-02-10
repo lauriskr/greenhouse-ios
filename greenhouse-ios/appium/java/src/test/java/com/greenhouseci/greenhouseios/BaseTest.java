@@ -19,9 +19,7 @@ public class BaseTest {
 
     @Before
     public void setUp() throws Exception {
-        // set up appium
-        File classpathRoot = new File(System.getProperty("user.dir"));
-        File appDir = new File(classpathRoot, "../../../build/Debug-iphonesimulator");
+        File appDir = new File(System.getenv("GREENHOUSE_SYMROOT"), "Debug-iphonesimulator");
         File app = new File(appDir, "greenhouse-ios.app");
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
