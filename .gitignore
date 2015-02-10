@@ -1,7 +1,6 @@
 **/.DS_Store
 greenhouse-ios/build
+build/
 greenhouse-ios/appium/java/target
-greenhouse-ios/appium/php/vendor
-greenhouse-ios/appium/php/composer.lock
 
 **/.idea
