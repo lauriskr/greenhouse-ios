@@ -18,3 +18,18 @@ class AnotherTest extends BaseTest
 		$this->assertFalse(false);
 	}
 }
+
+
+class AnotherSameFileTest extends BaseTest
+{
+
+	public function testExampleFail()
+	{
+		$this->assertTrue(false);
+	}
+
+	public function testExampleSuccess()
+	{
+		$this->assertFalse(false);
+	}
+}
