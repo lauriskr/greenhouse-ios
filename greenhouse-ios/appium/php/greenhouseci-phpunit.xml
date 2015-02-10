@@ -2,6 +2,7 @@
     <testsuites>
         <testsuite name="GreenhouseTestSuite">
             <directory>package</directory>
+            <exclude>package/SkippedTest.php</exclude>
             <file>AnotherTest.php</file>
             <file>SimpleTest.php</file>
         </testsuite>
