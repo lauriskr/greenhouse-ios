@@ -1,7 +1,6 @@
 <phpunit>
     <testsuites>
         <testsuite name="GreenhouseTestSuite">
-            <exclude>package/*</exclude>
             <directory>package</directory>
             <file>AnotherTest.php</file>
             <file>SimpleTest.php</file>
