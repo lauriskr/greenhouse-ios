@@ -18,7 +18,7 @@ class BaseTest extends Sauce\Sausage\WebDriverTestCase
             'local' => true,
             'port' => 4723,
             'browserName' => '',
-			'seleniumServerRequestsTimeout' => 120,
+			'seleniumServerRequestsTimeout' => 240,
             'desiredCapabilities' => array(
                 'device' => 'iPhone Simulator',
 				'deviceName' => 'iPhone Simulator',
