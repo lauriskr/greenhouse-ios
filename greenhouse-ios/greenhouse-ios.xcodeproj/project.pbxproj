@@ -24,6 +24,8 @@
 		7791B70D18BF8B2E00EA3020 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6EC18BF8B2E00EA3020 /* UIKit.framework */; };
 		7791B71518BF8B2E00EA3020 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7791B71318BF8B2E00EA3020 /* InfoPlist.strings */; };
 		7791B71718BF8B2E00EA3020 /* greenhouse_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7791B71618BF8B2E00EA3020 /* greenhouse_iosTests.m */; };
+		779557521AB767FC00FE0CE0 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779557501AB767FC00FE0CE0 /* Crashlytics.framework */; };
+		779557531AB767FC00FE0CE0 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779557511AB767FC00FE0CE0 /* Fabric.framework */; };
 		77CBB5171952CF82007B2090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6E818BF8B2E00EA3020 /* Foundation.framework */; };
 		77CBB5181952CF82007B2090 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6EA18BF8B2E00EA3020 /* CoreGraphics.framework */; };
 		77CBB5191952CF82007B2090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7791B6EC18BF8B2E00EA3020 /* UIKit.framework */; };
@@ -82,6 +84,8 @@
 		7791B71218BF8B2E00EA3020 /* greenhouse-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "greenhouse-iosTests-Info.plist"; sourceTree = "<group>"; };
 		7791B71418BF8B2E00EA3020 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7791B71618BF8B2E00EA3020 /* greenhouse_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = greenhouse_iosTests.m; sourceTree = "<group>"; };
+		779557501AB767FC00FE0CE0 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		779557511AB767FC00FE0CE0 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		77CBB5161952CF82007B2090 /* greenhouse-ios-second.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "greenhouse-ios-second.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CBB51C1952CF82007B2090 /* greenhouse-ios-second-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "greenhouse-ios-second-Info.plist"; sourceTree = "<group>"; };
 		77CBB51E1952CF82007B2090 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -108,7 +112,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7791B6EB18BF8B2E00EA3020 /* CoreGraphics.framework in Frameworks */,
+				779557531AB767FC00FE0CE0 /* Fabric.framework in Frameworks */,
 				7791B6ED18BF8B2E00EA3020 /* UIKit.framework in Frameworks */,
+				779557521AB767FC00FE0CE0 /* Crashlytics.framework in Frameworks */,
 				7791B6E918BF8B2E00EA3020 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,6 +178,8 @@
 		7791B6E718BF8B2E00EA3020 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				779557501AB767FC00FE0CE0 /* Crashlytics.framework */,
+				779557511AB767FC00FE0CE0 /* Fabric.framework */,
 				7791B6E818BF8B2E00EA3020 /* Foundation.framework */,
 				7791B6EA18BF8B2E00EA3020 /* CoreGraphics.framework */,
 				7791B6EC18BF8B2E00EA3020 /* UIKit.framework */,
@@ -282,6 +290,7 @@
 				7791B6E118BF8B2D00EA3020 /* Sources */,
 				7791B6E218BF8B2D00EA3020 /* Frameworks */,
 				7791B6E318BF8B2D00EA3020 /* Resources */,
+				7795574F1AB767C200FE0CE0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -423,6 +432,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7795574F1AB767C200FE0CE0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run d981343a7cce7e44c0fed40f27dfde1fe62f1e8c 9cc92af513cc82967aea3133db9bcb2a68b227ca022c023985ebde840417c67e";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7791B6E118BF8B2D00EA3020 /* Sources */ = {
@@ -626,6 +651,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "gh-ios";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "greenhouse-ios/greenhouse-ios-Prefix.pch";
 				INFOPLIST_FILE = "greenhouse-ios/greenhouse-ios-Info.plist";
@@ -639,6 +668,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "gh-ios";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "greenhouse-ios/greenhouse-ios-Prefix.pch";
 				INFOPLIST_FILE = "greenhouse-ios/greenhouse-ios-Info.plist";
@@ -804,6 +837,7 @@
 				77CBB5471952CF83007B2090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77CBB54B1952CF83007B2090 /* Build configuration list for PBXNativeTarget "greenhouse-ios-secondTests" */ = {
 			isa = XCConfigurationList;
@@ -812,6 +846,7 @@
 				77CBB5491952CF83007B2090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
