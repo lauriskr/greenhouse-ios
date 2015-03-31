@@ -472,6 +472,7 @@
 				GCC_PREFIX_HEADER = "greenhouse-ios/greenhouse-ios-Prefix.pch";
 				INFOPLIST_FILE = "greenhouse-ios/greenhouse-ios-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -485,6 +486,7 @@
 				GCC_PREFIX_HEADER = "greenhouse-ios/greenhouse-ios-Prefix.pch";
 				INFOPLIST_FILE = "greenhouse-ios/greenhouse-ios-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
