@@ -11,17 +11,17 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>8369E5DF67CE86B8EB9530E7A71FE206D781490D</key>
-		<string>https://github.com/lauriskr/greenhouse-ios</string>
+		<string>github.com:lauriskr/greenhouse-ios</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>greenhouse-ios/greenhouse-ios.xcodeproj/project.xcworkspace</string>
+	<string>greenhouse-ios/greenhouse-ios.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8369E5DF67CE86B8EB9530E7A71FE206D781490D</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/lauriskr/greenhouse-ios</string>
+	<string>github.com:lauriskr/greenhouse-ios</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
