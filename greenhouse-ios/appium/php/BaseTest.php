@@ -20,8 +20,8 @@ class BaseTest extends Sauce\Sausage\WebDriverTestCase
             'browserName' => '',
 			'seleniumServerRequestsTimeout' => 120,
             'desiredCapabilities' => array(
-                'device' => 'iPhone Simulator',
-				'deviceName' => 'iPhone Simulator',
+                'device' => 'iPhone 6',
+				'deviceName' => 'iPhone 6',
                 'version' => '8.1',
                 'platform' => 'iOS',
 				'platformName' => 'iOS',
