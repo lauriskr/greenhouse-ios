@@ -22,8 +22,9 @@
       "scale" : "3x"
     },
     {
-      "idiom" : "ipad",
       "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "apple-touch-icon-76x76-1.png",
       "scale" : "1x"
     },
     {
