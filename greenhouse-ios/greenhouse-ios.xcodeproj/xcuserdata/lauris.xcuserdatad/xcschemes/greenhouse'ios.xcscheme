@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7791B6E418BF8B2D00EA3020"
+               BlueprintIdentifier = "775F784F1B8B2D9A0076C66C"
                BuildableName = "greenhouse&apos;ios.app"
-               BlueprintName = "greenhouse-ios"
+               BlueprintName = "greenhouse&apos;ios"
+               ReferencedContainer = "container:greenhouse-ios.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "775F78671B8B2D9A0076C66C"
+               BuildableName = "greenhouse&apos;iosTests.xctest"
+               BlueprintName = "greenhouse&apos;iosTests"
                ReferencedContainer = "container:greenhouse-ios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7791B70818BF8B2E00EA3020"
-               BuildableName = "greenhouse-iosTests.xctest"
-               BlueprintName = "greenhouse-iosTests"
+               BlueprintIdentifier = "775F78671B8B2D9A0076C66C"
+               BuildableName = "greenhouse&apos;iosTests.xctest"
+               BlueprintName = "greenhouse&apos;iosTests"
                ReferencedContainer = "container:greenhouse-ios.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7791B6E418BF8B2D00EA3020"
+            BlueprintIdentifier = "775F784F1B8B2D9A0076C66C"
             BuildableName = "greenhouse&apos;ios.app"
-            BlueprintName = "greenhouse-ios"
+            BlueprintName = "greenhouse&apos;ios"
             ReferencedContainer = "container:greenhouse-ios.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -62,9 +76,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7791B6E418BF8B2D00EA3020"
+            BlueprintIdentifier = "775F784F1B8B2D9A0076C66C"
             BuildableName = "greenhouse&apos;ios.app"
-            BlueprintName = "greenhouse-ios"
+            BlueprintName = "greenhouse&apos;ios"
             ReferencedContainer = "container:greenhouse-ios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -81,9 +95,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7791B6E418BF8B2D00EA3020"
+            BlueprintIdentifier = "775F784F1B8B2D9A0076C66C"
             BuildableName = "greenhouse&apos;ios.app"
-            BlueprintName = "greenhouse-ios"
+            BlueprintName = "greenhouse&apos;ios"
             ReferencedContainer = "container:greenhouse-ios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

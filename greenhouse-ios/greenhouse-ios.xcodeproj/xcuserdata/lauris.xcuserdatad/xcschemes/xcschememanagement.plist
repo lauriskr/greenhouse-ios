@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>greenhouse'ios.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>greenhouse-ios.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -22,6 +27,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>775F784F1B8B2D9A0076C66C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>775F78671B8B2D9A0076C66C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>7791B6E418BF8B2D00EA3020</key>
 		<dict>
 			<key>primary</key>
