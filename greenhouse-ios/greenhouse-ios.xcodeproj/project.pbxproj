@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		776BEEB8192A00C900FB13E6 /* greenhouse_otherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = greenhouse_otherTests.m; sourceTree = "<group>"; };
 		776BEEBC192A01DD00FB13E6 /* greenhouse_moreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = greenhouse_moreTests.m; sourceTree = "<group>"; };
-		7791B6E518BF8B2E00EA3020 /* greenhouse-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "greenhouse-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7791B6E518BF8B2E00EA3020 /* greenhouse'ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "greenhouse'ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7791B6E818BF8B2E00EA3020 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7791B6EA18BF8B2E00EA3020 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7791B6EC18BF8B2E00EA3020 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -109,7 +109,7 @@
 		7791B6E618BF8B2E00EA3020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7791B6E518BF8B2E00EA3020 /* greenhouse-ios.app */,
+				7791B6E518BF8B2E00EA3020 /* greenhouse'ios.app */,
 				7791B70918BF8B2E00EA3020 /* greenhouse-iosTests.xctest */,
 			);
 			name = Products;
@@ -228,7 +228,7 @@
 			);
 			name = "greenhouse-ios";
 			productName = "greenhouse-ios";
-			productReference = 7791B6E518BF8B2E00EA3020 /* greenhouse-ios.app */;
+			productReference = 7791B6E518BF8B2E00EA3020 /* greenhouse'ios.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7791B70818BF8B2E00EA3020 /* greenhouse-iosTests */ = {
@@ -469,7 +469,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "greenhouse-ios/greenhouse-ios-Prefix.pch";
 				INFOPLIST_FILE = "greenhouse-ios/greenhouse-ios-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "greenhouse'ios";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -482,7 +482,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "greenhouse-ios/greenhouse-ios-Prefix.pch";
 				INFOPLIST_FILE = "greenhouse-ios/greenhouse-ios-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "greenhouse'ios";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
