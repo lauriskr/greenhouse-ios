@@ -28,7 +28,7 @@
 
 - (void)testFail
 {
-    XCTAssertFalse(NO);
+    XCTAssertFalse(YES);
 }
 
 - (void)testFalse
